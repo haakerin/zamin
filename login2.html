@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,6 +10,7 @@
 
     <title>login</title>
 </head>
+
 <body>
     <div class="login-body d-flex">
         <div class="right-box d-flex flex-column align-items-center justify-content-center h-100">
@@ -26,20 +28,28 @@
             <h1>
                 ورود
             </h1>
-            <!-- <div class="hidden-box d-flex align-items-center mb-5">
+            <div class="hidden-box d-flex align-items-center mb-5">
                 <p class="m-0">*****</p>
-                <img src="image/Union.svg" alt="phone">
-            </div> -->
-            <h3 class="mb-4 fw-normal">برای احراز هویت شمارۀ تلفن همراه خود را وارد کنید</h3>
-            <input type="number" class="mb-4" placeholder="مثال: 0912345678">
+                <img src="image/Vector-text.svg" alt="phone">
+            </div>
+            <h3 class="mb-4 fw-normal">کد ارسال شده را در فیلد زیر وارد کنید</h3>
+            <div class="wrapper d-flex">
+                <input type="number" class="mb-4 login2-input m-2 text-center">
+                <input type="number" class="mb-4 login2-input m-2 text-center">
+                <input type="number" class="mb-4 login2-input m-2 text-center">
+                <input type="number" class="mb-4 login2-input m-2 text-center">
+                <input type="number" class="mb-4 login2-input m-2 text-center">
+            </div>
             <svg class="mb-4" xmlns="http://www.w3.org/2000/svg" width="492" height="2" viewBox="0 0 492 2" fill="none">
-                <path d="M1 1H491" stroke="#7D7D7D" stroke-width="2" stroke-linecap="round" stroke-dasharray="16 16"/>
+                <path d="M1 1H491" stroke="#7D7D7D" stroke-width="2" stroke-linecap="round" stroke-dasharray="16 16" />
             </svg>
-            <button class="text-white border-0 rounded">
-                دریافت کد
-            </button>
+            <div class="wrapper d-flex w-50">
+                <button type="submit" class="text-white border-0 rounded m-2"> ارسال دوباره (56)</button>
+                <button type="submit" class="text-white border-0 rounded m-2 green-button">بررسی</button>
+            </div>
         </div>
     </div>
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
