@@ -60,8 +60,13 @@
     src: url(../statics/Estedad-Black.woff2) format(woff2),
         url(../ttf/Estedad-Black.ttf) format(truetype);
 }
-*{
+
+* {
     font-family: 'font';
+}
+
+body {
+    overflow-x: hidden;
 }
 
 .nav-btn {
@@ -82,30 +87,40 @@
     font-weight: 700;
     line-height: normal;
 }
+
 .nav-btn:hover {
     border: 3px solid #10C141;
     background: rgba(0, 0, 0, 0.50);
     color: #10C141;
 }
-.nav-svg{
+
+.nav-svg {
     width: 5rem;
     height: 3rem;
 }
 
-.imag-div-about{
-    background-image: url("../image/1.png");
-    background-size: cover;
-    background-position: center;
+.image{
+    background: center center;
+
     width: 100vw;
     height: 45rem;
     flex-shrink: 0;
     box-sizing: border-box;
+}
+
+.about-image{
+    background-image: url("../image/1.png");
+}
+
+.blog-image{
+    background-image: url("../image/blog.png");
 }
 /* .imag-about{
     background-size: cover;
     box-sizing: border-box;
     object-fit: cover;
 } */
+
 
 .modal-content {
     background-color: #10C141;
@@ -136,4 +151,29 @@ button {
 }
 .Description  h3 {
     font-weight: 300;
+}
+.border-title{
+    border: 5px dashed white;
+}
+.about-p {
+    color: #1E1E1E;
+    text-align: justify;
+    font-size: 1.625rem;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 200.023%;
+    letter-spacing: 0.02438rem;
+    padding: 10rem;
+}
+
+.about-h1 {
+    color: #F5F5F5;
+    text-align: right;
+    font-size: 5.25rem;
+    font-style: normal;
+    font-weight: 560;
+    line-height: normal;
+    letter-spacing: 0.105rem;
+    top: 40%;
+
 }
