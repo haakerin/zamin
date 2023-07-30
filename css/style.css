@@ -92,17 +92,26 @@
     height: 3rem;
 }
 
-.imag-div-about{
-    background-image: url("../image/1.png");
-    background-size: cover;
-    background-position: center;
+.image{
+    background: center center;
     width: 100vw;
     height: 45rem;
     flex-shrink: 0;
     box-sizing: border-box;
+}
+.about-image{
+    background-image: url("../image/1.png");
+}
+
+.blog-image{
+    background-image: url("../image/blog.png");
 }
 /* .imag-about{
     background-size: cover;
     box-sizing: border-box;
     object-fit: cover;
 } */
+
+.border-title{
+    border: 5px dashed white;
+}
