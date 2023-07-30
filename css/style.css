@@ -288,3 +288,31 @@ hr#eight {
 .div-radius{
     border-radius: 1.875rem;
 }
+.contact-image{
+    background: url(../image/Rectangle\ 10.png);
+}
+.contact-h1{
+    text-align: right;
+    font-size: 5.25rem;
+    font-style: normal;
+    font-weight: 560;
+    line-height: normal;
+    top: 40%;
+    right: 10%;
+}
+@media screen and (max-width: 1350px) {
+    .contact-h1{
+        top: 70% !important;
+    }
+}
+.m-a-span{
+    color: #10C141;
+}
+.btn-color{
+    background-color: #10C141;
+    width: 13rem;
+height: 3rem;
+}
+.text-align{
+    width: 80%;
+}
