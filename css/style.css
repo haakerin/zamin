@@ -125,6 +125,39 @@ body {
 .border-title {
     border: 3px dashed white;
 }
+.modal-content {
+    background-color: #10C141;
+}
+hr {
+    height: 1rem;
+    border-top: 4px solid;
+    color: #AFAFAF;
+    opacity: 1;
+}
+input {
+    padding: 0.8125rem 1rem 0.8125rem 5rem;
+    border-radius: 0.625rem;
+    background: #F5F5F5;
+    border: none;
+}
+button {
+    display: flex;
+    width: 18.6rem;
+    padding: 0.6rem 0rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.625rem;
+    background: #2D2D2D;
+}
+.modal-content {
+    height: 43rem;
+}
+.Description  h3 {
+    font-weight: 300;
+}
+.border-title{
+    border: 5px dashed white;
+}
 
 .about-p {
     color: #1E1E1E;
