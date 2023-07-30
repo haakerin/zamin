@@ -60,6 +60,9 @@
     src: url(../statics/Estedad-Black.woff2) format(woff2),
         url(../ttf/Estedad-Black.ttf) format(truetype);
 }
+*{
+    font-family: 'font';
+}
 
 .nav-btn {
     width: 6.5rem;
