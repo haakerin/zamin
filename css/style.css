@@ -99,7 +99,7 @@ body {
     height: 3rem;
 }
 
-.image{
+.image {
     background: center center;
 
     width: 100vw;
@@ -108,22 +108,24 @@ body {
     box-sizing: border-box;
 }
 
-.about-image{
+.about-image {
     background-image: url("../image/1.png");
 }
 
-.blog-image{
+.blog-image {
     background-image: url("../image/blog.png");
 }
+
 /* .imag-about{
     background-size: cover;
     box-sizing: border-box;
     object-fit: cover;
 } */
 
-.border-title{
-    border: 5px dashed white;
+.border-title {
+    border: 3px dashed white;
 }
+
 .about-p {
     color: #1E1E1E;
     text-align: justify;
@@ -132,7 +134,11 @@ body {
     font-weight: 200;
     line-height: 200.023%;
     letter-spacing: 0.02438rem;
-    padding: 10rem;
+    padding: 8rem;
+    padding-top: 0;
+}
+.about-p1{
+    padding-top: 5rem;
 }
 
 .about-h1 {
@@ -144,4 +150,63 @@ body {
     line-height: normal;
     letter-spacing: 0.105rem;
     top: 40%;
+}
+
+/* ///////////////////////////////// */
+
+@import "compass/css3";
+
+@import url(https://fonts.googleapis.com/css?family=Megrim);
+
+html,
+body {
+    background: rgb(255, 255, 255);
+    font-family: Megrim, cursive;
+}
+
+hr {
+    height: 1px;
+    background: white;
+    border: none;
+    outline: none;
+    margin: 3em 3em 5em;
+    position: relative;
+
+    &:before {
+
+        content: attr(data-symbol);
+        position: absolute;
+        top: 0;
+        left: 50%;
+        color: white;
+        padding: 0.5em 3em;
+        @include transform(translate(-50%, -50%));
+
+    }
+}
+
+hr#eight {
+    background: transparent;
+    border-bottom:2px dashed white;
+    width: 100%;
+    margin: 0 auto;
+
+    &:before {
+        top: 3px;
+        left: 0;
+        padding-right: 2em;
+    }
+}
+/* ////////////////////////////////////// */
+.blog-h1{
+    margin-right: 5rem;
+    margin-bottom: 5rem;
+}
+.border{
+    height: 100px;
+    width: 100px;
+    border-right: #10C141 5px solid;
+}
+.line-svg{
+    top: 120%;
 }
