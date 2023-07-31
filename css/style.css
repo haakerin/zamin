@@ -66,7 +66,7 @@
 }
 
 body {
-    overflow-x: hidden;
+    overflow-x: hidden !important;
 }
 
 .nav-btn {
@@ -138,30 +138,10 @@ hr {
 }
 
 input {
-    /* padding: 0.8125rem 1rem 0.8125rem 5rem; */
+    padding: 0.8125rem 1rem 0.8125rem 5rem;
     border-radius: 0.625rem;
     background: #F5F5F5;
     border: none;
-}
-
-.login2-input{
-    width: 3.4375rem;
-    height: 3.4375rem;
-    border: .5px solid rgba(128, 128, 128, .5);
-    padding: 1rem;
-    
-}
-
-/* Chrome, Safari, Edge, Opera */
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
-
-/* Firefox */
-input[type=number] {
-  -moz-appearance: textfield;
 }
 
 button {
@@ -180,7 +160,7 @@ button {
 
 .Description h3 {
     font-weight: 300;
-} */
+}
 
 .border-title {
     border: 5px dashed white;
@@ -189,13 +169,13 @@ button {
 .about-p {
     color: #1E1E1E;
     text-align: justify;
-    font-size: 1.625rem;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 200;
     line-height: 200.023%;
     letter-spacing: 0.02438rem;
-    padding: 8rem;
-    padding-top: 0;
+    padding: 0 20rem;
+    margin-top: 3rem;
 }
 
 .about-p1 {
@@ -293,9 +273,11 @@ hr#eight:before {
     /* font-weight: 610; */
     line-height: normal;
 }
-.bg-cards{
+
+.bg-cards {
     background: #D7D7D7;
 }
+
 /* .cards-radius{
     border-radius: 1.875rem;
 }
@@ -303,44 +285,99 @@ hr#eight:before {
     border-end-end-radius: 0;
     border-end-start-radius: 0;
 } */
-.top-radius-img{
+.top-radius-img {
     border-radius: 1.875rem 1.875rem 0 0;
 }
-.div-radius{
+
+.div-radius {
     border-radius: 1.875rem;
 }
 
-.contact-image{
-    background: url(../image/Rectangle\ 10.png);
-}
-.contact-h1{
+
+
+
+
+
+
+
+
+
+
+
+/* //// home page styles ////// */
+.text-contact {
+    color: #000;
     text-align: right;
-    font-size: 5.25rem;
+    font-family: Inter;
+    font-size: 2.5rem;
     font-style: normal;
     font-weight: 560;
     line-height: normal;
-    top: 40%;
-    right: 10%;
 }
-@media screen and (max-width: 1350px) {
-    .contact-h1{
-        top: 70% !important;
-    }
+
+.btn-information {
+    border-radius: 0.625rem;
+    background: #10C141;
+
+    /* Shadow 1 */
+    box-shadow: 0px 0px 30px 0px rgba(40, 40, 40, 0.20);
 }
-.m-a-span{
+
+.line-btn {
+    width: 0.2rem;
+    /* height: 1.25rem; */
+    /* transform: rotate(90deg); */
+    /* flex-shrink: 0; */
+    /* background: #F5F5F5; */
+    /* margin-top: 1rem; */
+    /* top: 1rem;
+    position: relative;
+    margin-right: 2rem; */
+}
+
+.btn-information span {
+    color: #F5F5F5;
+    text-align: right;
+    font-family: Imprima;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.08438rem;
+}
+
+.text-last-blog {
+    color: #1E1E1E;
+    text-align: justify;
+    font-family: Inter;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 200%;
+    /* 1.75rem */
+    letter-spacing: 0.01313rem;
+}
+
+.link {
     color: #10C141;
+    text-align: center;
+    font-family: Inter;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.00438rem;
 }
-.btn-color{
-    background-color: #10C141;
-    width: 13rem;
-height: 3rem;
+
+.slider-text {
+    text-align: justify;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(180deg, rgba(2, 0, 36, 0) 0%, rgba(1, 0, 17, 1) 43%);
+    height: 200px;
+    border-radius: 0.625rem;
 }
-.text-align{
-    width: 80%;
-}
-.login-body {
-    height: 100vh;
-}
+
+/* alireza///////////////////////////////////////////////////// */
 .right-box {
     width: 30%;
     background-color: #2D2D2D;
@@ -385,4 +422,27 @@ button {
     font-weight: 560;
     line-height: normal;
     letter-spacing: 0.2075rem;
+}
+button {
+    display: flex;
+    width: 18.6rem;
+    padding: 0.6rem 0rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.625rem;
+    background: #2D2D2D;
+}
+
+.modal-content {
+    height: 43rem;
+}
+
+.Description h3 {
+    font-weight: 300;
+} 
+.login2-input{
+    width: 3.4375rem;
+    height: 3.4375rem;
+    border: .5px solid rgba(128, 128, 128, .5);
+    padding: 1rem;   
 }
