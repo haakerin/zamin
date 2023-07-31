@@ -233,17 +233,17 @@ hr {
     margin: 3em 3em 5em;
     position: relative;
 
-    &:before {
+}
+hr:before {
 
-        content: attr(data-symbol);
-        position: absolute;
-        top: 0;
-        left: 50%;
-        color: white;
-        padding: 0.5em 3em;
-        @include transform(translate(-50%, -50%));
+    content: attr(data-symbol);
+    position: absolute;
+    top: 0;
+    left: 50%;
+    color: white;
+    padding: 0.5em 3em;
+    @include transform(translate(-50%, -50%));
 
-    }
 }
 
 hr#eight {
@@ -252,11 +252,12 @@ hr#eight {
     width: 100%;
     margin: 0 auto;
 
-    &:before {
-        top: 3px;
-        left: 0;
-        padding-right: 2em;
-    }
+
+}
+hr#eight:before {
+    top: 3px;
+    left: 0;
+    padding-right: 2em;
 }
 
 /* ////////////////////////////////////// */
