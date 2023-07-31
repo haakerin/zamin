@@ -332,8 +332,8 @@ hr#eight:before {
 }
 .left-box h1 {
     color: #10C141;
-    margin-bottom: 11rem;
-    font-weight: 200;
+    margin-bottom: 3rem;
+    font-weight: bold;
 }
 input {
     /* border-radius: 0.625rem;
